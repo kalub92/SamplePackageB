@@ -2,5 +2,5 @@
 // https://docs.swift.org/swift-book
 
 public struct SampleStruct {
-    
+    public init() {}
 }
