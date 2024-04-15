@@ -69,6 +69,10 @@ let package = Package(
             name: "OneSignalExtension",
             path: "Frameworks/OneSignalExtension.xcframework"
         ),
+        .binaryTarget(
+            name: "OneSignalOutcomes",
+            path: "Frameworks/OneSignalOutcomes.xcframework"
+        ),
         .testTarget(
             name: "SamplePackageBTests",
             dependencies: ["SamplePackageB"]),
