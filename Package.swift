@@ -51,6 +51,10 @@ let package = Package(
                 .target(
                     name: "OneSignalExtension",
                     condition: .when(platforms: [.iOS])
+                ),
+                .target(
+                    name: "OneSignalOutcomes",
+                    condition: .when(platforms: [.iOS])
                 )
             ],
             resources: [
